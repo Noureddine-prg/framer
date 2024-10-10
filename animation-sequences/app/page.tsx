@@ -48,13 +48,13 @@ const Basic = () => {
 
     await animate("#target", {
       width: "100vw", // Full viewport width
-      height: "25vh", // Quarter of the viewport height
+      height: "25vh", 
     });
   };
 
   return (
     <div ref={scope} className="w-full h-full">
-      <div id="target" className="w-24 h-24 bg-green-200"></div>
+      <div id="target" className="w-24 h-24 bg-green-200"></div>sc
       <button
         id="button"
         onClick={handleAnimate}
